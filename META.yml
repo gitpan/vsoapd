@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         vsoapd
-version:      0.4.0
+version:      0.4.1
 version_from: sbin/vsoapd
 installdirs:  site
 requires:
@@ -17,7 +17,7 @@ requires:
     SOAP::Transport::HTTP:         0
     Term::ReadKey:                 0
     VUser::ACL:                    0
-    VUser::ExtHandler:             0
+    VUser::ExtHandler:             0.3.2
     VUser::ExtLib:                 0
     VUser::Log:                    0
 
